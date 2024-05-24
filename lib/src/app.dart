@@ -9,7 +9,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.from(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent)),
-      home: const FormScreen(),
+      home: FormScreen(),
     );
   }
 }
